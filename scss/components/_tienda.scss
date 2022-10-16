@@ -1,0 +1,43 @@
+main {
+    .tienda-productos {
+        img:hover {
+            transform: scale(1.1);
+            transition: 0.5s;
+            object-fit: cover;
+        }
+
+        @keyframes tienda-productos {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.5);
+            }
+
+            100% {
+                transform: scale(2);
+            }
+        }
+    }
+
+    .metodos-de-pago img:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+        object-fit: cover;
+    }
+
+    @keyframes metodos-de-pago {
+        0% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.5);
+        }
+
+        100% {
+            transform: scale(2);
+        }
+    }
+}
