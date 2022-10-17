@@ -1,8 +1,12 @@
 main {
     .portadas-videos {
+        h1{
+            margin-bottom: 50px;
+        }
 
         img{
             width: 700px;
+            margin-bottom: 50px;
         }
 
         img:hover {

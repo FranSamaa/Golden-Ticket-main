@@ -60,6 +60,9 @@ body {
 body .iconos-media .audiovisual {
   width: 50px;
 }
+body .iconos-media li {
+  display: inline-block;
+}
 body .iconos-media img:hover {
   transform: scale(1.1);
   transition: 0.5s;
@@ -320,7 +323,17 @@ main .higher-power-img img:hover {
     transform: scale(2);
   }
 }
+main #textoPrincipal {
+  margin-bottom: 50px;
+}
+main .novedades {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
+.container h2 {
+  margin-bottom: 100px;
+}
 .container .albumes :hover {
   transform: scale(1.1);
   transition: 0.5s;
@@ -336,9 +349,16 @@ main .higher-power-img img:hover {
     transform: scale(1);
   }
 }
+.container .albumes img {
+  margin-bottom: 50px;
+}
 
+main .portadas-videos h1 {
+  margin-bottom: 50px;
+}
 main .portadas-videos img {
   width: 700px;
+  margin-bottom: 50px;
 }
 main .portadas-videos img:hover {
   transform: scale(1.1);
@@ -373,10 +393,22 @@ main .tienda-productos img:hover {
     transform: scale(2);
   }
 }
+main .tienda-productos img {
+  margin-bottom: 50px;
+}
+main .tienda-productos p {
+  margin-bottom: 50px;
+}
+main .tienda-productos .titulo {
+  margin-bottom: 50px;
+}
 main .metodos-de-pago img:hover {
   transform: scale(1.1);
   transition: 0.5s;
   object-fit: cover;
+}
+main img {
+  margin-bottom: 50px;
 }
 @keyframes metodos-de-pago {
   0% {
@@ -390,7 +422,12 @@ main .metodos-de-pago img:hover {
   }
 }
 
-.carta-fotos img:hover {
+main .sobre-nosotros-container p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-bottom: 50px;
+}
+main .carta-fotos img:hover {
   transform: scale(1.1);
   transition: 0.5s;
   object-fit: cover;
@@ -406,13 +443,12 @@ main .metodos-de-pago img:hover {
     transform: scale(2);
   }
 }
-.carta-fotos img {
+main .carta-fotos img {
   width: 50%;
   height: 50%;
   margin-bottom: 5%;
 }
-
-.contacto--container img:hover {
+main .contacto--container img:hover {
   transform: scale(1.1);
   transition: 0.5s;
   object-fit: cover;
@@ -428,25 +464,25 @@ main .metodos-de-pago img:hover {
     transform: scale(2);
   }
 }
-.contacto--container .icono-instagram {
+main .contacto--container .icono-instagram {
   width: 100px;
   height: 100px;
   margin-left: 10px;
   margin-right: 10px;
 }
-.contacto--container .icono-twitter {
+main .contacto--container .icono-twitter {
   width: 100px;
   height: 100px;
   margin-left: 10px;
   margin-right: 10px;
 }
-.contacto--container .linkedin-icono {
+main .contacto--container .linkedin-icono {
   width: 100px;
   height: 100px;
   margin-left: 10px;
   margin-right: 10px;
 }
-.contacto--container img:hover {
+main .contacto--container img:hover {
   transform: scale(1.1);
   transition: 0.5s;
   object-fit: cover;

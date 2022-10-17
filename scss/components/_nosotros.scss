@@ -1,92 +1,104 @@
-.carta-fotos {
-
-    img:hover {
-        transform: scale(1.1);
-        transition: 0.5s;
-        object-fit: cover;
-    }
-
-    @keyframes carta-fotos {
-        0% {
-            transform: scale(1);
-        }
-
-        50% {
-            transform: scale(1.5);
-        }
-
-        100% {
-            transform: scale(2);
+main {
+    .sobre-nosotros-container{
+        p{
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+            margin-bottom: 50px;
         }
     }
 
-         img {
-        width: 50%;
-        height: 50%;
-        margin-bottom: 5%;
-    }
-
-}
-
-.contacto--container {
-    img:hover {
-        transform: scale(1.1);
-        transition: 0.5s;
-        object-fit: cover;
-    }
-
-    @keyframes contacto--container {
-        0% {
-            transform: scale(1);
+    
+    .carta-fotos {
+        img:hover {
+            transform: scale(1.1);
+            transition: 0.5s;
+            object-fit: cover;
         }
 
-        50% {
-            transform: scale(1.5);
+        @keyframes carta-fotos {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.5);
+            }
+
+            100% {
+                transform: scale(2);
+            }
         }
 
-        100% {
-            transform: scale(2);
+        img {
+            width: 50%;
+            height: 50%;
+            margin-bottom: 5%;
+        }
+
+    }
+
+    .contacto--container {
+        img:hover {
+            transform: scale(1.1);
+            transition: 0.5s;
+            object-fit: cover;
+
+        }
+
+        @keyframes contacto--container {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.5);
+            }
+
+            100% {
+                transform: scale(2);
+            }
+        }
+
+        .icono-instagram {
+            width: 100px;
+            height: 100px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .icono-twitter {
+            width: 100px;
+            height: 100px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .linkedin-icono {
+            width: 100px;
+            height: 100px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+            transition: 0.5s;
+            object-fit: cover;
+        }
+
+        @keyframes contacto--container {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.5);
+            }
+
+            100% {
+                transform: scale(2);
+            }
         }
     }
 
-    .icono-instagram {
-        width: 100px;
-        height: 100px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    .icono-twitter {
-        width: 100px;
-        height: 100px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    .linkedin-icono {
-        width: 100px;
-        height: 100px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    img:hover {
-        transform: scale(1.1);
-        transition: 0.5s;
-        object-fit: cover;
-    }
-
-    @keyframes contacto--container {
-        0% {
-            transform: scale(1);
-        }
-
-        50% {
-            transform: scale(1.5);
-        }
-
-        100% {
-            transform: scale(2);
-        }
-    }
 }

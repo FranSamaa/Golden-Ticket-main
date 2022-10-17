@@ -19,12 +19,24 @@ main {
                 transform: scale(2);
             }
         }
+        img{
+            margin-bottom: 50px;
+        }
+        p{
+            margin-bottom: 50px;
+        }
+        .titulo{
+            margin-bottom: 50px;
+        }
     }
 
     .metodos-de-pago img:hover {
         transform: scale(1.1);
         transition: 0.5s;
         object-fit: cover;
+    }
+    img{
+        margin-bottom: 50px;
     }
 
     @keyframes metodos-de-pago {
