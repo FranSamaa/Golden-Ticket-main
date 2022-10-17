@@ -446,7 +446,7 @@ main .carta-fotos img:hover {
 main .carta-fotos img {
   width: 50%;
   height: 50%;
-  margin-bottom: 5%;
+  margin-bottom: 50px;
 }
 main .contacto--container img:hover {
   transform: scale(1.1);

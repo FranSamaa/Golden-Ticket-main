@@ -20,13 +20,13 @@ main {
             }
         }
         img{
-            margin-bottom: 50px;
+            margin-bottom: $espacio-margen;
         }
         p{
-            margin-bottom: 50px;
+            margin-bottom: $espacio-margen;
         }
         .titulo{
-            margin-bottom: 50px;
+            margin-bottom: $espacio-margen;
         }
     }
 
@@ -36,7 +36,7 @@ main {
         object-fit: cover;
     }
     img{
-        margin-bottom: 50px;
+        margin-bottom: $espacio-margen;
     }
 
     @keyframes metodos-de-pago {

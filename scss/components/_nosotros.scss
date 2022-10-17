@@ -3,7 +3,7 @@ main {
         p{
             font-size: 1.5rem;
             line-height: 2.5rem;
-            margin-bottom: 50px;
+            margin-bottom: $espacio-margen;
         }
     }
 
@@ -32,7 +32,7 @@ main {
         img {
             width: 50%;
             height: 50%;
-            margin-bottom: 5%;
+            margin-bottom: $espacio-margen;
         }
 
     }
@@ -62,22 +62,22 @@ main {
         .icono-instagram {
             width: 100px;
             height: 100px;
-            margin-left: 10px;
-            margin-right: 10px;
+            margin-left: $espacio-margen-left;
+            margin-right: $espacio-margen-right;
         }
 
         .icono-twitter {
             width: 100px;
             height: 100px;
-            margin-left: 10px;
-            margin-right: 10px;
+            margin-left: $espacio-margen-left;
+            margin-right: $espacio-margen-right;
         }
 
         .linkedin-icono {
             width: 100px;
             height: 100px;
-            margin-left: 10px;
-            margin-right: 10px;
+            margin-left: $espacio-margen-left;
+            margin-right: $espacio-margen-right;
         }
 
         img:hover {

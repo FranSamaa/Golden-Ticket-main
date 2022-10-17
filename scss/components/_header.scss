@@ -3,14 +3,14 @@ header{
     align-items: center;
     margin-top: -140px;
     .header-left{
-        margin-top: 100px;
+        margin-top: $espacio-margen-bottom-header;
     }
     
     .header-rigth{
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: $espacio-margen-left;
+        margin-right: $espacio-margen-right;
         margin-top: -100px;
-        margin-bottom: 100px;
+        margin-bottom: $espacio-margen-bottom-header;
 
         .menu li{
             list-style-type: none;

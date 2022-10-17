@@ -25,10 +25,10 @@ main {
         }
     }
     #textoPrincipal {
-        margin-bottom: 50px;
+        margin-bottom: $espacio-margen;
     }
     .novedades{
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: $espacio-margen-top;
+        margin-bottom: $espacio-margen;
     }
 }
