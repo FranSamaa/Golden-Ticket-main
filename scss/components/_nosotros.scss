@@ -60,22 +60,19 @@ main {
         }
 
         .icono-instagram {
-            width: 100px;
-            height: 100px;
+            @include altura-redes-sociales(100px,100px);
             margin-left: $espacio-margen-left;
             margin-right: $espacio-margen-right;
         }
 
         .icono-twitter {
-            width: 100px;
-            height: 100px;
+            @include altura-redes-sociales(100px,100px);
             margin-left: $espacio-margen-left;
             margin-right: $espacio-margen-right;
         }
 
         .linkedin-icono {
-            width: 100px;
-            height: 100px;
+            @include altura-redes-sociales(100px,100px);
             margin-left: $espacio-margen-left;
             margin-right: $espacio-margen-right;
         }
