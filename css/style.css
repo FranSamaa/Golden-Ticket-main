@@ -1,4 +1,4 @@
-/* prueba compilacion */
+/* prueba compilacion */ /*CSS-SASS DE VARIABLES*/ /*CSS-SASS DE MIXIN-REDES SOCIALES*/ /*CSS-SASS DEL HEADER*/
 header {
   align-items: center;
   margin-top: -140px;
@@ -30,12 +30,14 @@ header .header-rigth img:hover {
   object-fit: cover;
 }
 
+/*CSS-SASS DE FOOTER*/
 footer {
   width: 400px;
   margin-left: 50px;
   padding-left: 50px;
 }
 
+/*CSS-SASS DE ESTILOS GENERALES*/
 body {
   background: linear-gradient(45deg, red, blue, green, black);
   background-size: 400% 400%;
@@ -302,6 +304,7 @@ body .iconos-media img:hover {
     width: 1000px;
   }
 }
+/*CSS-SASS DE INDEX*/
 main {
   text-align: center;
   margin-left: 7%;
@@ -331,6 +334,7 @@ main .novedades {
   margin-bottom: 50px;
 }
 
+/*CSS-SASS DE MUSICA*/
 .container h2 {
   margin-bottom: 100px;
 }
@@ -353,6 +357,7 @@ main .novedades {
   margin-bottom: 50px;
 }
 
+/*CSS-SASS DE VIDEOS*/
 main .portadas-videos h1 {
   margin-bottom: 50px;
 }
@@ -377,6 +382,7 @@ main .portadas-videos img:hover {
   }
 }
 
+/*CSS-SASS DE TIENDA*/
 main .tienda-productos img:hover {
   transform: scale(1.1);
   transition: 0.5s;
@@ -422,6 +428,7 @@ main img {
   }
 }
 
+/*CSS-SASS DE NOSOTROS*/
 main .sobre-nosotros-container p {
   font-size: 1.5rem;
   line-height: 2.5rem;
@@ -497,6 +504,84 @@ main .contacto--container img:hover {
   100% {
     transform: scale(2);
   }
+}
+
+/*CSS-SASS DE REGISTRARSE*/
+main .login-caja {
+  margin-left: 50%;
+  margin-top: 100px;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  box-shadow: 0 15px 25px rgba(246, 245, 250, 0.7);
+  border-radius: 10px;
+}
+main .login-caja h2 {
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+main .login-caja .user-caja input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+main .login-caja .user-caja label {
+  top: -60px;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+main .login-caja .user-caja input:focus ~ label,
+main .login-caja .user-caja input:valid ~ label {
+  top: -85px;
+  color: #8F7CEC;
+  font-size: 12px;
+}
+main #enviar {
+  padding: 10px 20px;
+  color: #CBBDDB;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  border: 1px solid #8F7CEC;
+  margin: auto;
+}
+main #enviar:hover {
+  background: #8F7CEC;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #8F7CEC, 0 0 25px #8F7CEC, 0 0 50px #8F7CEC, 0 0 100px #8F7CEC;
+}
+main .boton-formulario {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+main #registro {
+  font-size: 14px;
+  text-decoration: none;
+  color: #CBBDDB;
+  margin: auto;
+  text-align: center;
+}
+main #registro a {
+  margin: auto;
+  color: #8F7CEC;
+  text-decoration: none;
+  font-size: small;
 }
 
 /*# sourceMappingURL=style.css.map */
